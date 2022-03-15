@@ -29,3 +29,17 @@ main{
 #task-box{
     padding: 20px 30px;
 }
+
+.check{
+    border: 1px solid ;
+    border-radius: 50%;
+    text-align: center;
+}
+.red{
+    color: red;
+    border-color:red;
+}
+.green{
+    color:green;
+    border-color: green;
+}
