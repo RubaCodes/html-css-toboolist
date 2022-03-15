@@ -30,13 +30,15 @@ main{
 }
 #task-box{
     padding: 20px 30px;
+    border: 1px solid white;
+    border-radius: 30px;
 }
 
 .check{
     border: 1px solid ;
     border-radius: 50%;
     text-align: center;
-    vertical-align: middle;
+    margin: auto;
 }
 .red{
     color: red;
@@ -74,4 +76,25 @@ main{
 }
 .red-tag{
     background-color: #d863a1;
+}
+
+#add-task{
+    color:white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: small;
+    background-color: #45abea;
+}
+#add-section{
+    color:lightgrey;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: small;
+    background-color: white;
+}
+#action-box{
+    margin-left :30px;
+    padding-top: 30px;
 }
