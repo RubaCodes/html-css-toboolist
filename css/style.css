@@ -12,7 +12,9 @@ h1{
 #logo{
     vertical-align: middle;
 }
-
+br{
+    border: 1px solid #f6f8f9;
+}
 header{
     padding-left: 20px;
     
@@ -35,10 +37,13 @@ main{
 }
 
 .check{
+    display: inline-block;
+    height: 21px;
+    width: 21px;
     border: 1px solid ;
     border-radius: 50%;
     text-align: center;
-    margin: auto;
+    line-height: 21px;
 }
 .red{
     color: red;
