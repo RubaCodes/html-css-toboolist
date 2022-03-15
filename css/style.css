@@ -10,3 +10,18 @@ h1{
 #logo{
     vertical-align: middle;
 }
+
+header{
+    padding-left: 20px;
+    
+}
+main{
+    background-color: grey;
+}
+
+#main-box{
+    
+    width: 60%;
+    margin: auto;
+    background-color: white;
+}
