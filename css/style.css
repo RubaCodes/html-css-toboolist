@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
 h1{
@@ -34,6 +36,7 @@ main{
     border: 1px solid ;
     border-radius: 50%;
     text-align: center;
+    vertical-align: middle;
 }
 .red{
     color: red;
@@ -42,4 +45,27 @@ main{
 .green{
     color:green;
     border-color: green;
+}
+.entry{
+    padding: 10px ;
+}
+/* Colore e layout tag */
+.tag{
+    color:white;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: small;
+}
+.blue-tag{
+    background-color: #45abea;
+}
+.purple-tag{
+    background-color: #9c72e4;
+}
+.green-tag{
+    background-color: #64c0a9;
+}
+.orange-tag{
+    background-color: #f6b764;
 }
