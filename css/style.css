@@ -8,11 +8,14 @@ h1{
     display: inline-block;
     vertical-align: middle;
 }
+h2{
+    margin: 5px 0px;
+}
 
 #logo{
     vertical-align: middle;
 }
-br{
+hr{
     border: 1px solid #f6f8f9;
 }
 header{
@@ -25,15 +28,15 @@ main{
 }
 
 #main-box{
-    
+    border: 1px solid white;
+    border-radius: 30px;
     width: 60%;
     margin: auto;
     background-color: white;
 }
 #task-box{
     padding: 20px 30px;
-    border: 1px solid white;
-    border-radius: 30px;
+    
 }
 
 .check{
@@ -54,7 +57,7 @@ main{
     border-color: green;
 }
 .entry{
-    padding: 10px ;
+    padding: 10px 10px 10px 0px ;
 }
 /* Colore e layout tag */
 .tag{
