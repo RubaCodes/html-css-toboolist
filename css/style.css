@@ -16,7 +16,7 @@ header{
     
 }
 main{
-    background-color: grey;
+    background-color: #f6f8f9;
     padding-top: 30px;
 }
 
@@ -25,4 +25,7 @@ main{
     width: 60%;
     margin: auto;
     background-color: white;
+}
+#task-box{
+    padding: 20px 30px;
 }
